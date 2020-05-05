@@ -1,0 +1,240 @@
+@charset "utf-8";
+#wrapper {
+	width: 1536px;
+	height: 1000px;	
+}
+
+/*inicia header*/
+
+#wrapper header h1 figure img{ /*rectangulo verde header*/
+  	position: absolute;
+  	top: -25px;
+  	width: 1536px;
+  	height: 41px;
+	padding: 0px;
+}
+
+#wrapper header nav { /* logo*/
+    position: absolute;
+    top: 41px;
+    left: 4px;
+    width: 110px;
+    height: 96px;
+}
+
+#wrapper header nav ul { /*alinear texto derecha*/
+    list-style-type: none;
+    position: absolute;
+    left: 720px;
+    top: 0px;
+    width: 734px;
+}
+
+#wrapper header nav ul li { /*separacion de arriba 1ero y entre palabras*/
+	display: inline-block;
+	padding: 20px 55px;
+  
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Cocogoose Pro Thin";
+    font-size: 12px;
+    text-align: right;
+}
+
+
+/*empieza css  body*/
+
+#body h3 figure img{  /*rectangulo*/
+    position: absolute;
+    top: 244px;
+    width: 1536px;
+    height: 509px;
+}
+
+#body h4 figure img{ /*imagen hotel*/
+	position: absolute;
+  	top: 140px;
+  	width: 1536px;
+ 	height: 521px;
+}
+
+#body #icono h5 { /*icono ubicacion*/
+	position: absolute;
+  	left: 512px;
+  	top: 583px;
+  	width: 85px;
+  	height: 85px;
+}
+
+#body #icono h6 { /*icono atividades*/
+	position: absolute;
+  	left: 768px;
+  	top: 583px;
+  	width: 85px;
+  	height: 85px;
+}
+
+#body #icono h7{ /*icono reservacion*/
+	position: absolute;
+  	left: 1024px;
+  	top: 583px;
+  	width: 85px;
+  	height: 85px;
+}
+#icono nav{ /*para el texto menu 2*/
+	position: absolute;
+	top:700px;
+	left: 0px;
+}
+
+#icono nav ul{
+	list-style-type: none;
+}
+
+#icono nav ul li{
+	display: inline-block;
+		
+}
+
+#body #icono h8 { /*rrectangulo de separacion cafe*/
+	position: absolute;
+  	left: 0px;
+  	top: 742px;
+  	width: 1536px;
+  	height: 9px;
+	
+}
+
+#body #mision-vision h9 { /*rectangulo mision*/
+    position: absolute;
+    top: 800px;
+    width: 760px;
+    height: 440px;
+	
+}
+
+#body #mision-vision h10 { /*rectangulo vision*/
+	position: absolute;
+  	top: 800px;
+  	width: 760px;
+  	height: 440px;
+	left: 776px;
+}
+
+#body #icono #menu2 { /*centrar 2do menu */
+	list-style-type: none;
+	position: absolute;
+	left: 355px;
+}
+
+#body #icono #menu2 li { /*alinear 2do menu*/
+	display: inline-block;
+	padding: 15px 95px;
+	
+}
+
+#body #mision-vision h11 { /*MISION*/
+	color: #000000;
+    text-decoration: none;
+    font-family: "Cocogoose Pro Thin";
+    font-size: 13px;
+    text-align: center;
+	position: absolute;
+	left: 380px;
+	top: 780px;
+}
+
+#body #mision-vision h12 { /*texto mision*/
+	color: #000000;
+    text-decoration: none;
+    font-family: "Cocogoose Pro Thin";
+    font-size: 12px;
+    text-align: center;
+	position: absolute;
+	left: 300px;
+	top: 820px;
+}
+
+#body #mision-vision h13 { /*VISION*/
+	color: #000000;
+    text-decoration: none;
+    font-family: "Cocogoose Pro Thin";
+    font-size: 13px;
+    text-align: center;
+	position: absolute;
+	left: 1180px;
+	top: 780px;
+}
+
+#body #mision-vision h14 { /*texto vision*/
+	color: #000000;
+    text-decoration: none;
+    font-family: "Cocogoose Pro Thin";
+    font-size: 12px;
+    text-align: center;
+	position: absolute;
+	left: 1060px;
+	top: 820px;
+}
+#body #carouselExampleIndicators1 { /*ubicacion carrusel*/
+	position: absolute;
+	top: 1150px;
+	left: 660px;
+	
+}
+.carousel-item.active .carousel-caption h5 { /*texto slide carrusel*/
+	position: absolute;
+	top: 1250px;
+	left: 660px;
+}
+#body div h14 { /*rectangulo carrusel*/
+	position: absolute;
+	top: 1120px;
+	left: 0px;
+}
+body div h15 { /*rectangulo footer*/
+    position: absolute;
+    left: -4px;
+    top: 1339px;
+    width: 1539px;
+    height: 197px
+}
+
+#iconosfooter h16 { /*icono facebook*/
+	position: absolute;
+  	left: 512px;
+  	top: 1400px;
+  	width: 53px;
+  	height: 53px;
+	
+}
+#iconosfooter h17 { /*icono twitter*/
+	position: absolute;
+  	left: 768px;
+  	top: 1400px;
+  	width: 53px;
+  	height: 53px;
+}
+#iconosfooter h18 { /*icono insta*/
+	position: absolute;
+  	left: 1024px;
+  	top: 1400px;
+  	width: 53px;
+  	height: 53px;
+}
+body div footer { /*texto footer*/
+    font-size: 12px;
+    font-family: "Cocogoose Pro Thin";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 555px;
+    top: 1500px;
+    width: 444px;
+    height: 11px;
+}
